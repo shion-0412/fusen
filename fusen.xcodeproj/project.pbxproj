@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05301C752625A15900CD8CA2 /* ConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05301C742625A15900CD8CA2 /* ConfigViewController.swift */; };
+		05301C802625C1D000CD8CA2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05301C7F2625C1D000CD8CA2 /* Extensions.swift */; };
+		05301C9F2625E61600CD8CA2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05301C942625CDA900CD8CA2 /* Localizable.strings */; };
 		0557FC48262589E40031F5ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0557FC47262589E40031F5ED /* AppDelegate.swift */; };
-		0557FC4A262589E40031F5ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0557FC49262589E40031F5ED /* ViewController.swift */; };
+		0557FC4A262589E40031F5ED /* PileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0557FC49262589E40031F5ED /* PileViewController.swift */; };
 		0557FC4C262589E70031F5ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0557FC4B262589E70031F5ED /* Assets.xcassets */; };
 		0557FC4F262589E70031F5ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0557FC4D262589E70031F5ED /* Main.storyboard */; };
 		0557FC5B262589E80031F5ED /* fusenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0557FC5A262589E80031F5ED /* fusenTests.swift */; };
 		0557FC66262589E80031F5ED /* fusenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0557FC65262589E80031F5ED /* fusenUITests.swift */; };
+		0557FC7726258BE30031F5ED /* StickyNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0557FC7626258BE30031F5ED /* StickyNoteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,9 +37,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05301C742625A15900CD8CA2 /* ConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigViewController.swift; sourceTree = "<group>"; };
+		05301C7F2625C1D000CD8CA2 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		05301C892625CB9A00CD8CA2 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		05301C932625CDA900CD8CA2 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		05301C982625CDAD00CD8CA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		0557FC44262589E40031F5ED /* fusen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fusen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0557FC47262589E40031F5ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0557FC49262589E40031F5ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0557FC49262589E40031F5ED /* PileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PileViewController.swift; sourceTree = "<group>"; };
 		0557FC4B262589E70031F5ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0557FC4E262589E70031F5ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0557FC50262589E70031F5ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,6 +55,7 @@
 		0557FC61262589E80031F5ED /* fusenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fusenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0557FC65262589E80031F5ED /* fusenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fusenUITests.swift; sourceTree = "<group>"; };
 		0557FC67262589E80031F5ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0557FC7626258BE30031F5ED /* StickyNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyNoteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +107,11 @@
 			isa = PBXGroup;
 			children = (
 				0557FC47262589E40031F5ED /* AppDelegate.swift */,
-				0557FC49262589E40031F5ED /* ViewController.swift */,
+				05301C7F2625C1D000CD8CA2 /* Extensions.swift */,
+				05301C942625CDA900CD8CA2 /* Localizable.strings */,
+				0557FC49262589E40031F5ED /* PileViewController.swift */,
+				0557FC7626258BE30031F5ED /* StickyNoteViewController.swift */,
+				05301C742625A15900CD8CA2 /* ConfigViewController.swift */,
 				0557FC4B262589E70031F5ED /* Assets.xcassets */,
 				0557FC4D262589E70031F5ED /* Main.storyboard */,
 				0557FC50262589E70031F5ED /* Info.plist */,
@@ -209,6 +223,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
 			);
 			mainGroup = 0557FC3B262589E30031F5ED;
 			productRefGroup = 0557FC45262589E40031F5ED /* Products */;
@@ -228,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0557FC4C262589E70031F5ED /* Assets.xcassets in Resources */,
+				05301C9F2625E61600CD8CA2 /* Localizable.strings in Resources */,
 				0557FC4F262589E70031F5ED /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,7 +269,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0557FC4A262589E40031F5ED /* ViewController.swift in Sources */,
+				05301C802625C1D000CD8CA2 /* Extensions.swift in Sources */,
+				0557FC7726258BE30031F5ED /* StickyNoteViewController.swift in Sources */,
+				0557FC4A262589E40031F5ED /* PileViewController.swift in Sources */,
+				05301C752625A15900CD8CA2 /* ConfigViewController.swift in Sources */,
 				0557FC48262589E40031F5ED /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,10 +309,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		05301C942625CDA900CD8CA2 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05301C932625CDA900CD8CA2 /* ja */,
+				05301C982625CDAD00CD8CA2 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		0557FC4D262589E70031F5ED /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				0557FC4E262589E70031F5ED /* Base */,
+				05301C892625CB9A00CD8CA2 /* ja */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -305,6 +334,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -352,7 +382,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -366,6 +396,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -407,7 +438,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -422,15 +453,20 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = fusen/fusen.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = T7NP67H8TC;
+				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = fusen/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = jp.shion.fusen.fusen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -441,15 +477,20 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = fusen/fusen.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = T7NP67H8TC;
+				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = fusen/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = jp.shion.fusen.fusen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
